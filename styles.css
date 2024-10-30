@@ -147,12 +147,13 @@ nav {
     background-color: rgba(36, 34, 32, 0.5); 
     background-blend-mode: multiply; /* Blend mode for overlay */
     margin-top: 20px; 
-    gap: 20px; /* Increased space between elements for better separation */
+    gap: 20px;
+     /* Increased space between elements for better separation */
 }
 
 .hero form label {
     font-size: 28px; 
-    color: #131010; 
+    color: white; 
     font-weight: bold; 
     margin-right: 10px; /* Add margin to separate labels from inputs */
     flex: 0 0 150px; /* Fixed width for labels */
@@ -213,7 +214,7 @@ nav {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
-    background-image: url("/images/AZCarFleet.webp"); /* Background image for the fleet section */
+    background-image: url("images/AZCarFleet.webp"); /* Background image for the fleet section */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply; /* Blend mode for overlay */
     background-size: cover; /* Cover the whole section */
@@ -241,7 +242,7 @@ nav {
 
 .process {
     height: 50vh; /* Full viewport height */
-    background-image:url("/images/AZprocessbackground.jpg");
+    background-image:url("images/AZprocessbackground.jpg");
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply; /* Blend mode for overlay */
     background-size: cover;
@@ -295,7 +296,7 @@ nav {
 }
 .counters {
     height: 50vh; /* Full viewport height */
-    background-image:url("/images/AZcarfamily.jpg");
+    background-image:url("images/AZcarfamily.jpg");
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply; /* Blend mode for overlay */
     background-size: cover;
@@ -361,7 +362,7 @@ body.fleet-page .navbar a {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
     align-items: flex-start; /* Align items at the start */
-    background-image: url("/images/AZCarFleet.webp"); /* Background image */
+    background-image: url("images/AZCarFleet.webp"); /* Background image */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply; /* Blend mode for overlay */
     background-size: cover; /* Cover the whole section */
@@ -428,7 +429,7 @@ body.fleet-page .navbar a {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
     align-items: flex-start; /* Align items at the start */
-    background-image: url("/images/AZprocessbackground.jpg"); /* Background image */
+    background-image: url("images/AZprocessbackground.jpg"); /* Background image */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply;
     background-size: cover;
@@ -538,7 +539,7 @@ body.coverage-page .navbar a {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
     align-items: flex-start; /* Align items at the start */
-    background-image: url("/images/AZprocessbackground.jpg"); /* Background image */
+    background-image: url("images/AZprocessbackground.jpg"); /* Background image */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply;
     background-size: cover;
@@ -610,7 +611,7 @@ body.coverage-page .navbar a {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
     align-items: flex-start; /* Align items at the start */
-    background-image: url("/images/AZcarfamily.jpg"); /* Background image */
+    background-image: url("images/AZcarfamily.jpg"); /* Background image */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply;
     background-size: cover;
@@ -634,7 +635,7 @@ body.aboutus-page .navbar a {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
     align-items: flex-start; /* Align items at the start */
-    background-image: url("/images/AZprocessbackground.jpg"); /* Background image */
+    background-image: url("images/AZprocessbackground.jpg"); /* Background image */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply;
     background-size: cover;
@@ -749,7 +750,7 @@ body.confirmation-page .navbar a {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
     align-items: flex-start; /* Align items at the start */
-    background-image: url("/images/AZprocessbackground.jpg"); /* Background image */
+    background-image: url("images/AZprocessbackground.jpg"); /* Background image */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply;
     background-size: cover;
@@ -774,7 +775,7 @@ body.confirmation-page .navbar a {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
     align-items: flex-start; /* Align items at the start */
-    background-image: url("/images/AZcarfamily.jpg"); /* Background image */
+    background-image: url("images/AZcarfamily.jpg"); /* Background image */
     background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
     background-blend-mode: multiply;
     background-size: cover;
