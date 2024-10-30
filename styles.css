@@ -758,8 +758,60 @@ body.confirmation-page .navbar a {
 
 }
 
-.back-link{
-    text-decoration: none;
+/* Navbar Styles for Profile Page */
+body.confirmation-page .navbar a {
+    color: white; /* Change this to your desired color for the navbar links */
+}
+
+/* Profile Page Specific Styles */
+.confirmation-page .logo h1 {
+    color: white; /* Change logo color to white on booking page */
+}
+
+.profile-page {
+    height: 100;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items at the start */
+    background-image: url("/images/AZcarfamily.jpg"); /* Background image */
+    background-color: rgba(19, 18, 17, 0.5); /* Dark overlay */
+    background-blend-mode: multiply;
+    background-size: cover;
+    color:white;
+    padding-top: 100px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.info-details, .history-list {
+    margin-bottom: 20px;
+}
+
+.edit-profile-button, .logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.edit-profile-button:hover, .logout-button:hover {
+    background-color: #0056b3;
 }
 
 /* Ensures full height for the layout */

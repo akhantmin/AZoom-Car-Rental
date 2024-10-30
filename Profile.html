@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="profile-page">
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>AZoom Car Rental</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="fleet.html">Fleet</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="profile.html">Log In</a>
+            </div>
+        </nav>
+    </header>
+    <main class="profile-container">
+        <!-- User Information Section -->
+        <section class="user-info">
+            <h1>Your Profile</h1>
+            <h2>Personal Information</h2>
+            <div class="info-details">
+                <p><strong>Full Name:</strong> <span id="fullName">John Doe</span></p>
+                <p><strong>Email:</strong> <span id="email">johndoe@example.com</span></p>
+                <p><strong>Phone:</strong> <span id="phone">+65 1234 5678</span></p>
+            </div>
+            <button class="edit-profile-button">Edit Profile</button>
+        </section>
+
+        <!-- Booking History Section -->
+        <section class="booking-history">
+            <h2>Booking History</h2>
+            <div class="history-list">
+                <p><strong>Booking #1</strong>: Tesla Model 3 - Jan 15, 2024 - Jan 20, 2024</p>
+                <p><strong>Booking #2</strong>: Nissan Leaf - Feb 10, 2024 - Feb 15, 2024</p>
+                <p><strong>Booking #3</strong>: BMW i3 - Mar 5, 2024 - Mar 10, 2024</p>
+                <!-- Additional bookings can be dynamically added here -->
+            </div>
+        </section>
+
+        <!-- Account Actions -->
+        <section class="account-actions">
+            <button class="logout-button">Log Out</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
