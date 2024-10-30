@@ -103,7 +103,7 @@ nav {
     align-items: center;
     justify-content: flex-start;
     padding-top: 300px;
-    background-image: url("/images/AZhero.jpg");
+    background-image: url("images/AZhero.jpg");
     background-size: cover;
     background-position: center;
     color: white;
