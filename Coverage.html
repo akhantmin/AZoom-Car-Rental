@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coverage & Payment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="coverage-page">
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="logo">
+                <a href="home.html">
+                    <h1>AZoom Car Rental</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="fleet.html">Fleet</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="profile.html">Log In</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="coverage-container">
+            <h2>Coverage and Payment</h2>
+            <form id="coverage-form" action="confirmation.html" method="GET">
+                <h2>Car Information</h2>
+                <p><strong>Car:</strong> <span id="car-info"></span></p>
+                <p><strong>Pickup Location:</strong> <span id="pickup-info"></span></p>
+                <p><strong>Drop-off Location:</strong> <span id="dropoff-info"></span></p>
+                <p><strong>Pickup Date:</strong> <span id="date-info"></span></p>
+                <p><strong>Rental Duration:</strong> <span id="duration-info"></span></p>
+
+                <h2>Insurance Options</h2>
+                <div class="insurance-options">
+                    <div class="insurance-card">
+                        <h3>Basic Plan</h3>
+                        <p>Covers up to $5,000 in damages</p>
+                        <p>Cost: SGD 50</p>
+                        <label>
+                            <input type="radio" name="insurance" value="Basic" required>
+                            Select Basic
+                        </label>
+                    </div>
+                    
+                    <div class="insurance-card">
+                        <h3>Standard Plan</h3>
+                        <p>Covers up to $15,000 in damages and theft protection</p>
+                        <p>Cost: SGD 100</p>
+                        <label>
+                            <input type="radio" name="insurance" value="Standard">
+                            Select Standard
+                        </label>
+                    </div>
+                    
+                    <div class="insurance-card">
+                        <h3>Premium Plan</h3>
+                        <p>Comprehensive cover including third-party damages</p>
+                        <p>Cost: SGD 150</p>
+                        <label>
+                            <input type="radio" name="insurance" value="Premium">
+                            Select Premium
+                        </label>
+                    </div>
+                </div>
+
+                <h3>Customer Information</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact-number">Contact Number:</label>
+                <input type="tel" id="contact-number" name="contact-number" required>
+
+                <h3>Payment Information</h3>
+                <label for="credit-card-number">Credit Card Number:</label>
+                <input type="text" id="credit-card-number" name="credit-card-number" required>
+
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="month" id="expiry-date" name="expiry-date" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <input type="submit" value="Proceed to Confirmation">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

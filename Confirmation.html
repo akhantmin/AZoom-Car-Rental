@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation - AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your main stylesheet -->
+</head>
+<body class="confirmation-page">
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="logo">
+                <a href="home.html">
+                    <h1>AZoom Car Rental</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="fleet.html">Fleet</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="profile.html">Log In</a>
+            </div>
+        </nav>
+    </header>
+  
+    <main class="confirmation-container">
+        <h1>Booking Confirmation</h1>
+        <p>Review your booking details before proceeding.</p>
+        <section class="booking-summary">
+            <h2>Booking Summary</h2>
+            <div class="summary-details">
+                <p><strong>Car:</strong> <span id="carModel">Tesla Model 3</span></p>
+                <p><strong>Pick-Up Date:</strong> <span id="pickUpDate">2023-12-01</span></p>
+                <p><strong>Drop-Off Date:</strong> <span id="dropOffDate">2023-12-05</span></p>
+                <p><strong>Pick-Up Location:</strong> <span id="pickUpLocation">AZ Clementi</span></p>
+                <p><strong>Drop-Off Location:</strong> <span id="dropOffLocation">AZ Downtown</span></p>
+                <p><strong>Insurance:</strong> <span id="insuranceOption">Standard Coverage</span></p>
+                <p><strong>Rental Fee:</strong> <span id="rentalFee">$300.00</span></p>
+                <p><strong>Insurance Fee:</strong> <span id="insuranceFee">$50.00</span></p>
+                <p><strong>Total Amount:</strong> <span id="totalAmount">$350.00</span></p>
+            </div>
+        </section>
+
+        <!-- Confirmation CTA -->
+        <section class="confirmation-cta">
+            <form action="payment.html" method="POST">
+                <button type="submit" class="confirm-button">Confirm and Proceed to Payment</button>
+            </form>
+            <p class="back-link"><a href="coverage.html">Go Back to Coverage Options</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script> 
+</html>

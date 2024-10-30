@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id ="navbar" class="navbar" >
+            <div class="logo">
+                <a href="home.html">
+                    <h1>AZoom Car Rental</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="fleet.html">Fleet</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="profile.html">Log In</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="motto">Drive Change, Drive Electric</h1>
+                <p>Join the electric revolution – rent, drive, and contribute to a greener tomorrow.</p>
+                
+                <form id="bookingForm" action="booking.html" method="get"> <!-- Directly submits to booking.html -->
+                    <label for="pickup-location">Pick-up Location:</label>
+                    <select id="pickup-location" name="pickup-location">
+                        <option value="">Select a Pick-up Location</option>
+                        <option value="azclementi">AZ Clementi Branch</option>
+                        <option value="aztampines">AZ Tampines Branch</option>
+                    </select>
+                
+                    <label for="dropoff-location">Drop-off Location:</label>
+                    <select id="dropoff-location" name="dropoff-location">
+                        <option value="">Select a Drop-off Location</option>
+                        <option value="carpark1">Bugis Junction Carpark</option>
+                        <option value="carpark2">Suntec City Carpark</option>
+                        <option value="carpark3">VivoCity Carpark</option>
+                        <option value="carpark4">Orchard Gateway Carpark</option>
+                        <option value="carpark5">Raffles City Carpark</option>
+                        <option value="carpark6">Marina Square Carpark</option>
+                        <option value="carpark7">Holland Village Carpark</option>
+                        <option value="carpark8">Katong Shopping Centre Carpark</option>
+                        <option value="carpark9">Jurong Point Carpark</option>
+                        <option value="carpark10">Bugis+ Carpark</option>
+                        <option value="carpark11">The Cathay Carpark</option>
+                        <option value="carpark12">Plaza Singapura Carpark</option>
+                        <option value="carpark13">The Star Vista Carpark</option>
+                        <option value="carpark14">City Square Mall Carpark</option>
+                        <option value="carpark15">Westgate Carpark</option>
+                        <option value="carpark16">Tiong Bahru Plaza Carpark</option>
+                        <option value="carpark17">AMK Hub Carpark</option>
+                        <option value="carpark18">Compass One Carpark</option>
+                        <option value="carpark19">Great World City Carpark</option>
+                        <option value="carpark20">Junction 8 Carpark</option>
+                        <option value="carpark21">Bedok Mall Carpark</option>
+                        <option value="carpark22">Kallang Wave Mall Carpark</option>
+                        <option value="carpark23">NEX Mall Carpark</option>
+                        <option value="carpark24">Tampines Mall Carpark</option>
+                        <option value="carpark25">Serangoon NEX Carpark</option>
+                        <option value="carpark26">Changi City Point Carpark</option>
+                        <option value="carpark27">Paya Lebar Quarter Carpark</option>
+                        <option value="carpark28">Woodlands Causeway Point Carpark</option>
+                        <option value="carpark29">Hillion Mall Carpark</option>
+                        <option value="carpark30">Eastpoint Mall Carpark</option>
+                    </select>
+                
+                    <label for="pickup-date">Pick-up Date:</label>
+                    <input type="date" id="pickup-date" name="pickup-date">
+                  
+                    <label for="rental-duration">Rental Duration:</label>
+                    <select id="rental-duration" name="rental-duration">
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                    </select>
+                
+                    <div class="button-container"> 
+                        <button type="submit">Book Now</button>
+                    </div>
+                </form>                
+            </div>
+        </section>
+        <section class="fleet">
+            <h2>Experience Our Fleet</h2>
+            <p>Cars Tailored for Every Adventure</p>
+            <a href="Fleet.html" class="btn">View Our Complete Range</a>
+        </section>
+        <section class="process">
+            <h2>Zoom to Your Destination</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="/images/AZcaricon.jpeg" alt="Choose Your Car Icon" class="icon">
+                    <h3>Choose Your Car</h3>
+                    <p>Browse our fleet and pick your ideal vehicle.</p>
+                </div>
+                <div class="step">
+                    <img src="/images/AZbookingicon.jpg" alt="Book Online Icon" class="icon">
+                    <h3>Book Online</h3>
+                    <p>Reserve your car with our easy online booking system.</p>
+                </div>
+                <div class="step">
+                    <img src="/images/AZcarstore.webp" alt="Pick Up & Drive Icon" class="icon">
+                    <h3>Pick Up & Drive</h3>
+                    <p>Get behind the wheel and enjoy your journey!</p>
+                </div>
+                <div class="step">
+                    <img src="/images/AZcarpark.avif" alt="#" class="icon">
+                    <h3>Drop & Done.</h3>
+                     <p>Convenient return locations at designated carparks</p>
+                </div>
+            </div>
+        </section>
+        <section class="counters">
+            <h2>Our Journey So Far</h2>
+            <div class="counter">
+                <div class="count">10,500</div>
+                <span>Total Trips</span>
+            </div>
+            <div class="counter">
+                <div class="count">1,200,000</div>
+                <span>Kilometers Traveled</span>
+            </div>
+            <div class="counter">
+                <div class="count">3,000</div>
+                <span>Vehicles Rented</span>
+            </div>
+            <div class="counter">
+                <div class="count">5,000</div>
+                <span>Happy Customers</span>
+            </div>
+            <div class="counter">
+                <div class="count">8</div>
+                <span>Years in Service</span>
+            </div>
+            <div class="button-container">
+                <a href="booking.html" class="btn">Book Your Adventure Today!</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

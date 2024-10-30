@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Fleet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="fleet-page">
+    <header>
+        <nav id ="navbar" class="navbar" >
+            <div class="logo">
+                <a href="home.html">
+                    <h1>AZoom Car Rental</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="fleet.html">Fleet</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="profile.html">Log In</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="fleet-container">
+            <!-- Car 1 -->
+            <div class="car-card">
+                <img src="/images/Tesla_front.png" alt="Tesla Model 3Front View" class="car-image" id="car1-image">
+                <h2>Tesla Model 3</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 358 miles</p>
+                    <p><strong>Battery:</strong> 54 kWh</p>
+                    <p><strong>Available at:</strong> AZ Clementi</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car1')">Toggle View</button>
+            </div>
+            <!-- Car 2 -->
+            <div class="car-card">
+                <img src="/images/BYDSeal_front.png" alt="Car 2 Front View" class="car-image" id="car2-image">
+                <h2>BYD Seal</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 226 miles</p>
+                    <p><strong>Battery:</strong> 40 kWh</p>
+                    <p><strong>Available at:</strong> AZ Tampines</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car2')">Toggle View</button>
+            </div>
+            <!-- Car 3 -->
+            <div class="car-card">
+                <img src="/images/BYDAtto3_front.png" alt="Car 3 Front View" class="car-image" id="car3-image">
+                <h2>BYD Atto 3</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 259 miles</p>
+                    <p><strong>Battery:</strong> 66 kWh</p>
+                    <p><strong>Available at:</strong> AZ Clementi</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car3')">Toggle View</button>
+            </div>
+
+            <!-- Car 4 -->
+            <div class="car-card">
+                <img src="/images/Hyundai_front.png" alt="Car 4 Front View" class="car-image" id="car4-image">
+                <h2>Hyundai Ioniq 5</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 153 miles</p>
+                    <p><strong>Battery:</strong> 42 kWh</p>
+                    <p><strong>Available at:</strong> AZ Tampines</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car4')">Toggle View</button>
+            </div>
+
+            <!-- Car 5 -->
+            <div class="car-card">
+                <img src="/images/HyundaiKona_front.png" alt="Car 5 Front View" class="car-image" id="car5-image">
+                <h2>Hyundai Kona Electric</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 258 miles</p>
+                    <p><strong>Battery:</strong> 64 kWh</p>
+                    <p><strong>Available at:</strong> AZ Clementi</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car5')">Toggle View</button>
+            </div>
+
+            <!-- Car 6 -->
+            <div class="car-card">
+                <img src="/images/MG4_front.png" alt="Car 6 Front View" class="car-image" id="car6-image">
+                <h2>MG4 EV</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 300 miles</p>
+                    <p><strong>Battery:</strong> 75.7 kWh</p>
+                    <p><strong>Available at:</strong> AZ Tampines</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car6')">Toggle View</button>
+            </div>
+
+            <!-- Car 7 -->
+            <div class="car-card">
+                <img src="/images/VW_front.png" alt="Car 7 Front View" class="car-image" id="car7-image">
+                <h2>Volkswagen ID.4</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 250 miles</p>
+                    <p><strong>Battery:</strong> 82 kWh</p>
+                    <p><strong>Available at:</strong> AZ Clementi</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car7')">Toggle View</button>
+            </div>
+
+            <!-- Car 8 -->
+            <div class="car-card">
+                <img src="/images/Rivian_front.png"Car 8 Front View" class="car-image" id="car8-image">
+                <h2>Rivian R1S</h2>
+                <div class="car-specs">
+                    <p><strong>Range:</strong> 314 miles</p>
+                    <p><strong>Battery:</strong> 135 kWh</p>
+                    <p><strong>Available at:</strong> AZ Tampines</p>
+                </div>
+                <button class="toggle-button" onclick="toggleImage('car8')">Toggle View</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
