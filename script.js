@@ -70,16 +70,16 @@ window.addEventListener('DOMContentLoaded', () => {
 // Car data
 const carData = {
     "azclementi": [
-        { name: "Tesla Model 3", seats: "5", doors: "4", range: "358 miles", battery: "54 kWh", image: "/images/Tesla_front.png", price: 223.76 },
-        { name: "BYD Atto 3", seats: "5", doors: "4", range: "259 miles", battery: "66 kWh", image: "/images/BYDAtto3_front.png", price: 231.76 },
-        { name: "Volkswagen ID.4", seats: "5", doors: "4", range: "250 miles", battery: "82 kWh", image: "/images/VW_front.png", price: 239.76 },
-        { name: "Hyundai Kona", seats: "5", doors: "4", range: "258 miles", battery: "64 kWh", image: "/images/HyundaiKona_front.png", price: 220.76 }
+        { name: "Tesla Model 3", seats: "5", doors: "4", range: "358 miles", battery: "54 kWh", image: "images/Tesla_front.png", price: 223.76 },
+        { name: "BYD Atto 3", seats: "5", doors: "4", range: "259 miles", battery: "66 kWh", image: "images/BYDAtto3_front.png", price: 231.76 },
+        { name: "Volkswagen ID.4", seats: "5", doors: "4", range: "250 miles", battery: "82 kWh", image: "images/VW_front.png", price: 239.76 },
+        { name: "Hyundai Kona", seats: "5", doors: "4", range: "258 miles", battery: "64 kWh", image: "images/HyundaiKona_front.png", price: 220.76 }
     ],
     "aztampines": [
-        { name: "BYD Seal", seats: "5", doors: "4", range: "226 miles", battery: "40 kWh", image: "/images/BYDSeal_front.png", price: 210.76 },
-        { name: "Hyundai Ioniq 5", seats: "5", doors: "4", range: "153 miles", battery: "42 kWh", image: "/images/Hyundai_front.png", price: 215.76 },
-        { name: "MG4 EV", seats: "5", doors: "4", range: "300 miles", battery: "75.7 kWh", image: "/images/MG4_front.png", price: 240.76 },
-        { name: "Rivian R1S", seats: "7", doors: "4", range: "314 miles", battery: "105 kWh", image: "/images/Rivian_front.png", price: 300.76 }
+        { name: "BYD Seal", seats: "5", doors: "4", range: "226 miles", battery: "40 kWh", image: "images/BYDSeal_front.png", price: 210.76 },
+        { name: "Hyundai Ioniq 5", seats: "5", doors: "4", range: "153 miles", battery: "42 kWh", image: "images/Hyundai_front.png", price: 215.76 },
+        { name: "MG4 EV", seats: "5", doors: "4", range: "300 miles", battery: "75.7 kWh", image: "images/MG4_front.png", price: 240.76 },
+        { name: "Rivian R1S", seats: "7", doors: "4", range: "314 miles", battery: "105 kWh", image: "images/Rivian_front.png", price: 300.76 }
     ]
 };
 
